@@ -19,7 +19,7 @@
         <p><a class="skipLink" href="#restaurant-container">Click to go to restaurant details</a></p>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul role="navigation" id="breadcrumb">
       <li><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -36,7 +36,7 @@
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container" role="Application" aria-label="Restaurant Details">
-      <h1 id="restaurant-name" tabindex=0></h1>
+      <h3 id="restaurant-name" tabindex=0></h3>
       <img id="restaurant-img">
       <p id="restaurant-cuisine" tabindex=0></p>
       <p id="restaurant-address" tabindex=0></p>
@@ -65,8 +65,7 @@
   <!-- Google Maps -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXV5SE0XhFvX_B2JAMOzAQjntpvhtEunE&libraries=places&callback=initMap"></script>
 
-
-  <!-- <script type="text/javascript" src="/sw_reg.js"></script> -->
+  <script type="text/javascript" src="/sw_reg.js"></script>
 
   <!-- End scripts -->
 </body>

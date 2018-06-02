@@ -18,10 +18,10 @@
 
   <main id="maincontent" role="Application">
     <section aria-hidden=true id="map-container">
-      <div id="map"></div>
+      <div role='section' id="map"></div>
     </section>
     <section id="filterRestaurants" tabindex=0 aria-label="Filter Restaurants">
-      <div class="filter-options">
+      <div role="search" class="filter-options">
         <h2>Filter Results</h2>        
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
@@ -30,7 +30,7 @@
           <option value="all">All Cuisines</option>
         </select>
       </div>
-      <ul tabindex=0 id="restaurants-list"  aria-label="Restaurant Details"></ul>
+      <ul tabindex=0 id="restaurants-list" aria-label="Restaurant Details"></ul>
     </section>
   </main>
 
